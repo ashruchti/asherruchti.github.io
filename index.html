@@ -26,26 +26,25 @@
       flex: 1;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
     }
 
-    .content {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    .header {
+      margin-bottom: auto;
     }
 
     h1 {
       font-size: 3rem;
-      margin-top: 0;
-      margin-bottom: 20px;
+      margin: 0;
     }
 
-    p {
+    .intro {
       font-size: 1.2rem;
-      max-width: 600px;
-      margin: 0 auto 30px;
+      margin-top: 15px;
+      margin-bottom: 40px;
+    }
+
+    .content {
+      margin-top: auto;
     }
 
     .buttons a {
@@ -64,6 +63,10 @@
       background-color: #b8926f;
     }
 
+    .icons {
+      margin-top: 20px;
+    }
+
     .icons a {
       color: #d2b48c;
       margin: 0 15px;
@@ -75,12 +78,8 @@
       color: #b8926f;
     }
 
-    .qr {
-      margin-top: 40px;
-    }
-
     footer {
-      margin-top: 60px;
+      margin-top: 40px;
       font-size: 0.9rem;
       opacity: 0.8;
     }
@@ -90,18 +89,20 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center 30%;
-        background-color: #d2b48c; /* tan fill for sides */
+        background-color: #d2b48c;
       }
     }
   </style>
 </head>
 <body>
   <div class="overlay">
-    <h1>Asher Ruchti</h1>
+
+    <div class="header">
+      <h1>Asher Ruchti</h1>
+      <p class="intro">Welcome to my official site. Follow along with my journey in country music.</p>
+    </div>
 
     <div class="content">
-      <p>Welcome to my official site. Follow along with my journey in country music.</p>
-
       <div class="buttons">
         <a href="https://www.tiktok.com/@asherruchti" target="_blank">TikTok</a>
         <a href="https://www.instagram.com/asherruchti" target="_blank">Instagram</a>
@@ -113,11 +114,12 @@
         <a href="https://www.instagram.com/asherruchti" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://venmo.com/asherruchti" target="_blank"><i class="fab fa-paypal"></i></a>
       </div>
+
+      <footer>
+        &copy; 2025 Asher Ruchti. All rights reserved.
+      </footer>
     </div>
 
-    <footer>
-      &copy; 2025 Asher Ruchti. All rights reserved.
-    </footer>
   </div>
 </body>
 </html>
